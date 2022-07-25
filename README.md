@@ -21,7 +21,7 @@ For more information you can visit  https://github.com/nadeemjazmawe/Jenkins-Clo
 Provides a sampling of "Spring Boot"
 For more information you can visit https://github.com/nadeemjazmawe/gs-spring-boot
 
-##Run repository##
+##Run repository
 First you need to have minikube on your computer.
 
 Clone the project
