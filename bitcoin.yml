@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bitcoin-deployment
+  labels:
+    app: bitcoin
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bitcoin
+  template:
+    metadata:
+      labels:
+        app: bitcoin
+    spec:
+      containers:
+      - name: bitcoin-web
+        image: nadeemjazmawe/bitcoin-price
+        ports:
+        - containerPort: 5000
+        name: http-gs-boot
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: bitcoin-service
+  labels:
+    app: bitcoin-service
+spec:
+  # type: NodePort
+  selector:
+    app: bitcoin
+  ports:
+  - name: bitcoin-service
+    protocol: TCP
+    port: 5000
+    targetPort: 5000
