@@ -24,6 +24,7 @@ For more information you can visit https://github.com/nadeemjazmawe/gs-spring-bo
 
 
 ##Run repository
+
 First you need to have minikube on your computer.
 
 Clone the project
