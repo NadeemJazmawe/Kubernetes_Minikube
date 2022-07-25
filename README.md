@@ -60,3 +60,20 @@ you can visit the websites now using:
 * http://localhost/bitcoin
 * http://localhost/ynet
 * http://localhost/gs-boot
+
+
+## stop minikube ##
+
+To stop minikube run the following command:
+```
+minikube stop
+```
+If you want to delete your minikube run the following command:
+```
+minikube delete
+```
+```
+minikube stop
+```
+
+
