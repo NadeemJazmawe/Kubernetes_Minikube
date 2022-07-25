@@ -8,7 +8,7 @@ For each website i have used yaml file , which has:
 
 Also, I have build yaml file for ingerss and redis.
 
-#### About wibsites
+### About wibsites
 1. **Bitcoin:**
 Presents the Current BitCoin Price, And the Average Price for the last 10 minutes and stores the price in a Redis Database.
 For more information you can visit 
