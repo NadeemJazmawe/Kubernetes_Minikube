@@ -29,7 +29,7 @@ First you need to have minikube on your computer.
 Clone the project
 git clone 
 ```
-https://github.com/mohamadassi173/YnetNews_bitcoinPrice_kubernetes.git
+https://github.com/nadeemjazmawe/Kubernetes_Homework.git
 ```
 Get in project directory
 ```
