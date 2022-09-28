@@ -62,7 +62,7 @@ You can visit the websites now using:
 * http://localhost/gs-boot
 
 
-## stop minikube ##
+## Stop Minikube ##
 
 To stop minikube run the following command:
 ```
